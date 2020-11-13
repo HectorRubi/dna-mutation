@@ -1,0 +1,23 @@
+{
+  "name": "dna-mutation",
+  "version": "1.0.0",
+  "description": "Find dna mutations from dna sequence of a person",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorRubi/dna-mutation.git"
+  },
+  "keywords": [
+    "dna",
+    "mutation"
+  ],
+  "author": "Hector Rubi <hector.rubi.garcia@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HectorRubi/dna-mutation/issues"
+  },
+  "homepage": "https://github.com/HectorRubi/dna-mutation#readme"
+}
