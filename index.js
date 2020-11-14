@@ -33,15 +33,4 @@ function hasMutation(dna) {
   return false
 }
 
-const adn1 = ['ATGCGA', 'CAGTGC', 'TTATGT', 'AGAAGG', 'CCCCTA', 'TCACTG']
-const adn2 = ['ATGCGA', 'CAGTGC', 'TTATCT', 'AGACGG', 'CCCCTA', 'TCACTG']
-const adn3 = ['ATGCGA', 'CAGTGC', 'TTATTT', 'AGACGG', 'GCGTCA', 'TCACTG']
-
-try {
-  console.time('Proceso')
-  const result = hasMutation(adn3)
-  console.log(result)
-  console.timeEnd('Proceso')
-} catch (error) {
-  console.error(error.message)
-}
+module.exports = hasMutation
