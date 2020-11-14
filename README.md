@@ -20,12 +20,12 @@ Es importante que la función sea utilizada dentro de un trycatch.
 ```js
 const hasMutation = require('dna-mutation');
 
-const adn1 = ['ATGCGA', 'CAGTGC', 'TTATGT', 'AGAAGG', 'CCCCTA', 'TCACTG']
+const adn1 = ['ATGCGA', 'CAGTGC', 'TTATTT', 'AGACGG', 'GCGTCA', 'TCACTG']
 const adn2 = ['ATGCGA', 'CAGTGC', 'TTATCT', 'AGACGG', 'CCCCTA', 'TCACTG']
 
 try {
-  const res = hasMutation(adn1) // False
-  const res = hasMutation(adn2) // True
+  console.log(hasMutation(adn1)) // False
+  console.log(hasMutation(adn2)) // True
 } catch(err) {
   console.error(err.message)
 }
