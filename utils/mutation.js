@@ -8,7 +8,12 @@ function existMutation(mutation) {
   return false
 }
 
+function resetData() {
+  mutations.splice(0, mutations.length)
+}
+
 module.exports = {
   mutations,
   existMutation,
+  resetData
 }

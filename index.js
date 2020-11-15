@@ -26,6 +26,8 @@ function hasMutation(dna) {
     });
   }
 
+  Mutation.resetData()
+
   if (mutationsCount >= 2) {
     return true
   }
