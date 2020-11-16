@@ -15,10 +15,10 @@ Una secuencia de ADN con mutaciones geneticas es aquella que tiene más de una s
 | A | T | G | C | G | A |
 | - | - | - | - | - | - |
 | C | A | G | T | G | C |
-| T | T | A | T | C | T |
-| A | G | A | C | G | G |
+| T | T | A | T | G | T |
+| A | G | A | A | G | G |
 | C | C | C | C | T | A |
-| T | C | A | C | T | G |
+| T | C | A | G | T | G |
 
 ## Instalación
 
@@ -39,7 +39,7 @@ const hasMutation = require('dna-mutation');
 Las secuencias de ADN tienen que tener el siguiente formato.
 ```js
 const adn1 = ['ATGCGA', 'CAGTGC', 'TTATTT', 'AGACGG', 'GCGTCA', 'TCACTG']
-const adn2 = ['ATGCGA', 'CAGTGC', 'TTATCT', 'AGACGG', 'CCCCTA', 'TCACTG']
+const adn2 = ['ATGCGA', 'CAGTGC', 'TTATGT', 'AGAAGG', 'CCCCTA', 'TCACTG']
 ```
 
 La función se tiene que ejecutar en una estructura `trycatch`

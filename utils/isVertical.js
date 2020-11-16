@@ -9,7 +9,7 @@ function isVertical(col, row, dna) {
     if (dna.length >= 4) {
       // Top
       if ((row-1) >= 0) {
-        for(i = row-1; i >= 0; i--) {
+        for(let i = row-1; i >= 0; i--) {
           const topChar = dna[i].charAt(col).toUpperCase()
 
           if (topChar === char && topCount < 3) {
@@ -19,10 +19,10 @@ function isVertical(col, row, dna) {
           }
         }
       }
-    
+
       // Bottom
       if((row+1) < dna.length) {
-        for(i = row+1; i < dna.length; i++) {
+        for(let i = row+1; i < dna.length; i++) {
           const bottomChar = dna[i].charAt(col).toUpperCase()
 
           if (bottomChar === char && topCount< 3) {
